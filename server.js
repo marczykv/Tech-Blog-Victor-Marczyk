@@ -12,7 +12,7 @@ const sessionStore = new SequelizeStore({ db: sequelize });
 // Configure session
 app.use(
   session({
-    secret: process.env.SESSION_SECRET, 
+    secret: 'Subaru123!!!', // Replace with your session secret
     resave: false,
     saveUninitialized: true,
     store: sessionStore,
