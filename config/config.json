@@ -1,16 +1,23 @@
 {
-    "development": {
-      "username": "Victor",
-      "password": "Subaru123!!!",
-      "database": "techblog",
-      "host": "localhost",
-      "dialect": "mysql"
-    },
-    "test": {
-      
-    },
-    "production": {
-      
-    }
+  "development": {
+    "username": "Victor",
+    "password": "Subaru123!!!",
+    "database": "techblog",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "Victor",
+    "password": "Subaru123!!!",
+    "database": "techblog",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "techblog",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
-  
+}
