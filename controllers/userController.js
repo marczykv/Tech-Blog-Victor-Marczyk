@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { User } = require('../models'); // Import the User model
+const { User } = require('../models'); 
 
 // Route to render the signup page
 router.get('/signup', (req, res) => {

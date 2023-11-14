@@ -1,4 +1,4 @@
-require('dotenv').config(); // Load environment variables
+require('dotenv').config(); 
 
 const express = require('express');
 const session = require('express-session');
@@ -19,8 +19,6 @@ app.use(
     cookie: { maxAge: 3600000 } // 1 hour
   })
 );
-
-// TODO: Define user routes and controllers
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { Post, Comment, User } = require('../models'); // Import models
+const { Post, Comment, User } = require('../models'); 
 
 // Route to render the homepage with existing blog posts
 router.get('/', async (req, res) => {
